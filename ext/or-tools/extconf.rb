@@ -1,4 +1,5 @@
 require "mkmf-rice"
+puts "######################### TEST"
 
 $CXXFLAGS << " -std=c++17 $(optflags) -DUSE_CBC"
 
